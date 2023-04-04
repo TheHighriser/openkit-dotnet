@@ -46,4 +46,4 @@ jobs:
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./tests/Dynatrace.OpenKit.Tests/TestResults/coverage.net6.0.info
+        path-to-lcov: ./tests/Dynatrace.OpenKit.Tests/TestResults/coverage.net7.0.info
